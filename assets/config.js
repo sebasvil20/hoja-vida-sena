@@ -3,17 +3,18 @@
 // Variables:
 // Json con la metadata de los atributos de las personas:
 const persona = {
-	nombre: "Eder Lara Trujillo",
-	profesion: "Desarrollador BigData",
-	correo: "ederlara@misena.edu.co",
-	telefono: "+57 311 5780589",
-	perfil: "Máster en Bigdata & analítica, analista de modelos de negocios y administración de bases de datos. Habilidades para trabajar en equipo en comunidades de: Desarrollo de Software, soluciones informáticas, evaluación de proyectos, Gerente de Business Intelligence, Analista Senior, BI Consultant, Analista Big Data, Técnico de Inteligencia de Negocio, Consultor Senior BI, Jefe de Proyecto Big Data.",
+	nombre: "Sebastián Villegas",
+	profesion: "Desarrollador Junior",
+	correo: "sebasvil20@gmail.com",
+	telefono: "+57 305 3190789",
+	sitio: "https://sebasvil20.github.io/",
+	perfil: "Técnico en desarrollo de software y actual estudiante tanto de Ingeniería Informática como de una tecnología en Análisis y desarrollo de sistemas de información. Me enfoco bastante al mundo del desarrollo web, donde cada vez voy aprendiendo mas. Todos mis avances los tienen disponibles en mi portafolio (Aun esta en proceso de desarrollo)",
 	habilidades: {
 		comunicativas:['Asertivo, ','Persuasivo, ','Actitud Positiva, ','Tolerancia, ','Respeto, ','Diálogo Abierto, ','Orden, ','Apoyo'],
-		gestion: ['Liderazgo, ','Evaluación de Proyectos, ','Responsabilidad, ','Estrategias de Gestión, ','Análisis para toma de Decisiones'],
-		tecnicas: ['Análisis de datos, ','Python (WEB / ETL), ','FullStack MEAN, ','Javascript, ','Bases de Datos SQL, ','MySQL - PlSQL, ', 'MongoDB - NoSQL', 'Office']
+		gestion: ['Liderazgo, ','Puntualidad, ' ,'Responsabilidad, ','Estrategias de Gestión, ','Análisis para toma de Decisiones'],
+		tecnicas: ['Fullstack MERN, ', 'Javascript Vanilla, ', ' CSS, ', 'SASS, ', 'SQL, ', 'Python/dJango, ', 'Git.']
 	},
-	hobbies: ['Escuchar Música, ', 'Ver Peliculas, ', 'Tocar Guitarra, ', 'Video-Juegos']
+	hobbies: ['Escuchar Música, ', 'Ver Peliculas, ', 'Aprender, ', 'Video-Juegos']
 }
 
 // Dejar intácto a partir de aquí.
@@ -31,6 +32,7 @@ function dataUser(){
 	// Footer:
 	$('#correo').html(persona.correo);
 	$('#telefono').html(persona.telefono);
+	$('#sitio').html(persona.sitio);
 	// Sección lateral:
 	$('#banner').html('<img src="'+banner+'" class="img-fluid mt-2" alt="">');
 	$('#perfil').html(persona.perfil);
